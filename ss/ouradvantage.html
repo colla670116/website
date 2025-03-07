@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bridge Ads - Our Advantage</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            animation: fadeIn 1s ease-out;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        .header {
+            text-align: center;
+            padding: 50px 0;
+            background-color: #ffffff;
+            background-size: cover;
+            background-position: center;
+            animation: slideDown 1s ease-out;
+        }
+
+        @keyframes slideDown {
+            0% { transform: translateY(-50px); opacity: 0; }
+            100% { transform: translateY(0); opacity: 1; }
+        }
+
+        .header img {
+            max-width: 150px;
+            margin-bottom: 20px;
+        }
+
+        .header h2 {
+            font-size: 36px;
+            margin-top: 10px;
+            color: #042a7c;
+        }
+
+        .nav {
+            text-align: center;
+            background-color: rgba(0, 51, 102, 0.8);
+            padding: 10px;
+        }
+
+        .nav a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+
+        .nav a:hover {
+            text-decoration: underline;
+            transform: scale(1.05);
+        }
+
+        .content {
+            padding: 40px;
+            background-color: rgba(0, 51, 102, 0.7);
+            max-width: 1200px;
+            margin: auto;
+            border-radius: 8px;
+            animation: fadeInContent 2s ease-out;
+        }
+
+        @keyframes fadeInContent {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        .content h1 {
+            font-size: 32px;
+            text-align: center;
+            margin-bottom: 20px;
+            color: #fff;
+        }
+
+        .content p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            color: #fff;
+        }
+
+        .advantages {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* 调整列宽，确保每个块的宽度适当 */
+            gap: 30px;
+            padding: 20px 0;
+        }
+
+        .advantage-item {
+            background-color: rgba(0, 51, 102, 0.9);
+            color: white;
+            padding: 25px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .advantage-item:hover {
+            transform: scale(1.05);
+        }
+
+        .advantage-item i {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        .footer {
+            background-color: rgba(0, 51, 102, 0.8);
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 15px;
+            width: 100%;
+        }
+
+        /* 响应式调整 */
+        @media screen and (max-width: 768px) {
+            .header h2 {
+                font-size: 28px;
+            }
+
+            .content h1 {
+                font-size: 28px;
+            }
+
+            .content p {
+                font-size: 16px;
+            }
+
+            .advantages {
+                grid-template-columns: 1fr; /* 保证在手机端时每个优势项单独占一行 */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <img src="logo.png" alt="Bridge Ads Logo">
+        <h2>Our Advantage</h2>
+    </div>
+
+    <div class="nav">
+        <a href="/aboutus">About Us</a>
+        <a href="/ouradvantage">Our Advantage</a>
+        <a href="/beadvertiser">Be Advertiser</a>
+        <a href="/beaffiliate">Be Affiliate</a>
+    </div>
+
+    <div class="content">
+        <h1>Why Choose Us?</h1>
+        <p>Bridge Ads stands out in the affiliate marketing industry due to our transparent, data-driven approach and commitment to delivering high-quality traffic. Below are some of the core advantages that make us your ideal affiliate network partner.</p>
+
+        <div class="advantages">
+            <div class="advantage-item">
+                <i class="fas fa-bullseye"></i>
+                <h3>High-Quality Traffic</h3>
+                <p>We source high-converting leads through targeted campaigns to ensure maximum returns for our advertisers and affiliates.</p>
+            </div>
+            <div class="advantage-item">
+                <i class="fas fa-chart-line"></i>
+                <h3>Data-Driven Optimization</h3>
+                <p>Using analytics and data insights, we continuously optimize offers to drive better results for both advertisers and affiliates.</p>
+            </div>
+            <div class="advantage-item">
+                <i class="fas fa-handshake"></i>
+                <h3>Transparent Partnerships</h3>
+                <p>We believe in building long-term, transparent relationships with our affiliates and advertisers based on trust and mutual success.</p>
+            </div>
+            <div class="advantage-item">
+                <i class="fas fa-cogs"></i>
+                <h3>Exclusive Offers</h3>
+                <p>We provide exclusive direct offers to help our affiliates generate higher-quality leads and ensure optimal revenue streams.</p>
+            </div>
+            <div class="advantage-item">
+                <i class="fas fa-credit-card"></i>
+                <h3>Flexible Payments</h3>
+                <p>We offer fast settlements following advertisers' billing cycles, with a minimum payout of $200. Advertisers can pay the same day, and we can pay our partners the next day. We support multiple payment methods including Payoneer, Wire Transfer, and USDT.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2025 Bridge Ads. All Rights Reserved.</p>
+        <p>Contact Us: bridgeads@outlook.com</p>
+    </div>
+
+</body>
+</html>
